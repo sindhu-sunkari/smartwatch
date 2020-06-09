@@ -1,0 +1,65 @@
+.r1{
+  position: absolute;
+  width: 55px;
+  height: 84px;
+  left: 246px;
+  top: 72px;
+  
+  background: #C4C4C4;
+}
+.r2{
+
+  position: absolute;
+width: 55px;
+height: 86px;
+left: 246px;
+top: 256px;
+
+background: #C4C4C4;
+}
+.r3{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 224px;
+  top: 156px;
+  
+  background: #C4C4C4;
+
+}
+
+.leftPart{
+    height: 100%;
+    width: 50%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(163, 49, 148);
+    text-align: center;
+  }
+  .rightPart{
+    height: 100%;
+    width: 50%;
+    position:fixed;
+    top: 0;
+  right: 0;
+    background-color: rgb(78, 167, 100);
+    text-align: center;
+  }
+  .left{
+   left: 50;
+   text-align: center;
+  }
+  
+  
+  .right{
+    right: 80%;
+    text-align: left;
+  }
+  
+  .centered{
+    position: absolute;
+    top:30%;
+    left:70%;
+    transform: translate(-50%,-50%);
+  }  
