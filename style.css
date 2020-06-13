@@ -1,65 +1,149 @@
+.part{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+}
+.left{
+    left: 0;
+    background-color:slategray;
+    text-align: center;
+    color:red ;
+}
+.right{
+    right: 0;
+    text-align: left;
+    background-color:honeydew;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .r1{
-  position: absolute;
-  width: 55px;
-  height: 84px;
-  left: 246px;
-  top: 72px;
-  
-  background: #C4C4C4;
+    position: absolute;
+    width: 72px;
+    height: 82px;
+    background:lemonchiffon;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
 }
 .r2{
-
-  position: absolute;
-width: 55px;
-height: 86px;
-left: 246px;
-top: 256px;
-
-background: #C4C4C4;
-}
-.r3{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 224px;
-  top: 156px;
-  
-  background: #C4C4C4;
-
-}
-
-.leftPart{
-    height: 100%;
-    width: 50%;
-    position:fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(163, 49, 148);
-    text-align: center;
-  }
-  .rightPart{
-    height: 100%;
-    width: 50%;
-    position:fixed;
-    top: 0;
-  right: 0;
-    background-color: rgb(78, 167, 100);
-    text-align: center;
-  }
-  .left{
-   left: 50;
-   text-align: center;
-  }
-  
-  
-  .right{
-    right: 80%;
-    text-align: left;
-  }
-  
-  .centered{
     position: absolute;
-    top:30%;
-    left:70%;
+    width: 180px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
-  }  
+    background:black;
+    border-radius: 50px;
+}
+/*.r3{
+    position: relative;
+    width: 72px;
+    height: 82px;
+    background: #8A7070;
+    top: 30%;
+    bottom: 60%;
+    transform: translate(-50%,-50%);
+} *?
+/* .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+ /*  .top1{
+    position: absolute;
+    top: 31%;
+     bottom: 70%; 
+    transform: translate(-50%,-50%);
+} */
+/*.bottom1{ 
+position: absolute;
+top: 69%;
+bottom: 30%;
+tratranslate(-50%,-50%);
+} */  
+#Time
+{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}
+.Home
+{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    /* size: 0.3in; */
+    width: 0.3in;
+    height: 0.2in;
+    border-radius: 0.25in;
+    color: rgb(253, 253, 253);
+    background-color:rgb(74, 137, 138);
+}
+.Msg
+{
+    position: absolute;
+    top: 75%;
+    left: 34%;
+    border-radius: 0.25in;
+    width: 0.3in;
+    height: 0.2in;
+    color: rgb(253, 253, 253);
+    background-color:rgb(74, 137, 138);
+
+}
+#msg
+{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}
+.Aud
+{
+    position: absolute;
+    top: 75%;
+    left: 53%;
+    border-radius: 0.25in;
+    width: 0.3in;
+    height: 0.2in;
+    color:rgb(253, 253, 253);
+    background-color: rgb(74, 137, 138);
+    
+}
+#SWatch
+{
+    position: absolute;
+    top: 75%;
+    left: 72%;
+    border-radius: 2in;
+    width: 0.3in;
+    height: 0.2in;
+    color: rgb(253, 253, 253);
+    background-color:rgb(74, 137, 138);
+}
+
+#audio
+{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}
+
+

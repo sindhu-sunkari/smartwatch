@@ -4,24 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>smartwatch</title>
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="leftPart">
-        <h1 class="centered">smartwatch</h1>
+    <div class="left part">
+    <div class="centered">
+        <h1 class="apptitle">smartwatch</h1>
     </div>
-    <div class="right part">
-        <div class="frame1">
-        <p id="dateAndTime">Date</p>
-        <button class="Home" onclick="dateAndTime()"><svg xmlns="http://www.w3.org/2000/svg" viewBox= "0 0 24 24" fill="white" width="18px" height=18px></button>  
-        <p id="msg"></p> 
-        <button class="msg" onclick="message()"><svg xmlns="http://www.w3.org/2000/svg" viewBox= "0 0 24 24" fill="white" width="18px" height=18px></button>  
-        <p id="Audio"></p>
-        <button id="Aud" onclick="Music()"><svg xmlns="http://www.w3.org/2000/svg" viewBox= "0 0 24 24" fill="white" width="18px" height=18px></button>  
-        <p id="stopwatch"></p>
-        <button id="SWatch" onclick="stopwatch()"><svg xmlns="http://www.w3.org/2000/svg" viewBox= "0 0 24 24" fill="white" width="18px" height=18px></button>  
+    </div>
+ <div class="right part">
+<div class="centered">
+    <div class="r1"></div>
+<div class="r2">
+     <p id="Time">Current date and time</p>
+     <button class="Home" onclick="time()"><svg class="bi bi-clock" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
+        <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/></svg></button>
+<p id="msg"></p>
+<button class="Msg" onclick="message()"><svg class="bi bi-chat-dots" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+    <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+  </svg></button>
+  <p id="audio"></p>
+                <button class="Aud" onclick="play()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="white" width="18px" height="18px">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
+                        </svg></button>
+                <p id="stopwatch"></p>
+                <button id="SWatch" onclick="stopWatch()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="white" width="15px" height="15px">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M22 5.72l-4.6-3.86-1.29 1.53 4.6 3.86L22 5.72zM7.88 3.39L6.6 1.86 2 5.71l1.29 1.53 4.59-3.85zM12.5 8H11v6l4.75 2.85.75-1.23-4-2.37V8zM12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z" />
+                        </svg></button>
 </div>
-<div class ="r3"></div>
-<script src="app.js"></script>
+<div class="r3"></div>
+    </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
